@@ -26,37 +26,42 @@
     <title>HVNcreations</title>
 </head>
 
-<body>
+<body class="overflow">
     <header class="header">
 
-        <a href="./index.html"><img src="./img/hvn11.png" class="img-fluid" alt="footer logo" role="presentation"></a>
+        <a class="logo"href="./index.html">HVN<br><span class="slogan">creations</span></a>
         <ul class="header__nav">
             <li class="header__list">
-                <a class="header__link" href="#">About</a>
+                <a class="header__link" href="#about">About</a>
             </li>
             <li class="header__list">
-                <a class="header__link" href="#">Services</a>
+                <a class="header__link" href="#services">Services</a>
             </li>
             <li class="header__list">
-                <a class="header__link" href="#">member</a>
+                <a class="header__link" href="#member">member</a>
             </li>
             <li class="header__list">
-                <a class="header__link" href="#">Contact</a>
+                <a class="header__link" href="#contact">Contact</a>
             </li>
             <li class="header__list">
-                <a class="header__link" href="#">Company</a>
+                <a class="header__link" href="#company">Company</a>
             </li>
         </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
     </header>
     <section class="banner">
         <div class="kv-image">
-            <!-- <div class="main-text">
-                <h1 class="ttl-text ">オフショア開発を通じて絆を深める！<br>悩みなら場所を問わず解決する！</h1>
-            </div> -->
+            <div class="main-text">
+                <h1 class="ttl-text ">オフショア開発を<br class="d-md-none">通じて絆を深める！<br>悩みなら場所を<br class="d-md-none">問わず解決する！</h1>
+            </div>
         </div>
     </section>
-    <section class="about">
-        <div class="about-section">
+    <section class="about" >
+        <div class="about-section" id="about">
             <div class="inner-container animate__animated animate__lightSpeedInRight wow">
                 <h2 class="heading_primary">About</h2>
                 <p class="text">
@@ -75,8 +80,8 @@
             </div>
         </div>
     </section>
-    <section class="service">
-        <h2 class="heading_primary">service</h2>
+    <section class="service" id="services">
+        <h2 class="heading_primary">services</h2>
         <!-- <div class="image"><img src="./img/sakura.png" class="img-fluid" alt=""></div> -->
 
         <main class="main">
@@ -554,22 +559,10 @@
             </div>
         </main>
     </section>
-    <section class="team">
+    <section class="team" id="member">
         <h2 class="heading_primary">member</h2>
         <div class="container team_detail">
             <div class="row">
-                <div class="col-12 col-sm-6 col-lg-4 ">
-                    <div class="card1 animate__animated animate__fadeInUp wow">
-                        <div class="imgBx">
-                            <img src="./img/sher.jpg" class="img-fluid" alt="" />
-                        </div>
-                        <div class="content">
-                            <div class="contentBx">
-                                <h3>ケーシー・セール・バハドウール<br /><span>事業最高責任者</span></h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-12 col-sm-6 col-lg-4">
                     <div class="card1 animate__animated animate__fadeInUp wow" data-wow-delay="250ms">
                         <div class="imgBx">
@@ -601,7 +594,7 @@
                         </div>
                         <div class="content">
                             <div class="contentBx">
-                                <h3>二シャン<br /><span>COO・フルスタック　 </span></h3>
+                                <h3>二シャン<br /><span>COO・フルスタック</span></h3>
                             </div>
                         </div>
                     </div>
@@ -826,7 +819,7 @@
             </div>
         </div>
     </section>
-    <section class="contact section-ctct ctct backcolor">
+    <section class="contact section-ctct ctct backcolor" id="contact">
         <div class="container">
             <div class="hdng" id="contact">
                 <h2 class="heading_primary">Contact</h2>
@@ -890,7 +883,7 @@
     </section>
     <section class="company_info" id="company">
         <div class="container company">
-            <h2 class="heading_primary">company</h2>
+            <h2 class="heading_primary padding">company</h2>
             <table class="animate__animated animate__fadeInRight wow" data-wow-delay="200ms">
                 <tbody>
                     <tr>
@@ -907,15 +900,11 @@
                     </tr>
                     <tr>
                         <td>設⽴</td>
-                        <td>2019年</td>
+                        <td>2022年</td>
                     </tr>
                     <tr>
                         <td>本社</td>
                         <td>カトマンズ、ネパール。名古屋仮拠点</td>
-                    </tr>
-                    <tr>
-                        <td>事業最高責任者</td>
-                        <td>ケーシー・セール・バハドウール</td>
                     </tr>
                     <tr>
                         <td>代表者</td>
@@ -923,11 +912,11 @@
                     </tr>
                     <tr>
                         <td>資本⾦</td>
-                        <td>200万円</td>
+                        <td>100万円</td>
                     </tr>
                     <tr>
                         <td>従業員</td>
-                        <td>10名</td>
+                        <td>5名</td>
                     </tr>
                     <tr>
                         <td>電話番号</td>
@@ -948,9 +937,10 @@
 
             <section class="horizontal-footer-section" id="footer-top-section">
                 <div id="footer-logo">
-                    <picture>
+                    <a class="logo"href="./index.html">HVN<br><span class="slogan">creations</span></a>
+                    <!-- <picture>
                         <img src="./img/hvn11.png" alt="footer logo" role="presentation">
-                    </picture>
+                    </picture> -->
                 </div>
                 <div id="footer-top-menu-container" role="menubar">
                     <ul id="footer-top-menu" role="menu">
